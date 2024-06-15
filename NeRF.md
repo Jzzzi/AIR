@@ -19,7 +19,7 @@ NeRF 的出现为计算机视觉和图形学领域带来了新的研究方向，
 > "Methods that generate images or video by tracing a ray into the scene and taking an integral of some sort over the length of the ray. Typically a neural network like a multi-layer perceptron encodes a function from the 3D coordinates on the ray to quantities like density and color, which are integrated to yield an image."
 
 ## Occupancy Nerworks
-A network $f_\theta$ that predict the probability whether the point in 3D space $p\isin \R^3$ is occupied while given the obervation $x\isin \chi$  
+A network $f_\theta$ that predict the probability whether the point in 3D space $p\isin \R ^3$ is occupied while given the obervation $x\isin \chi$  
 $$
-f_\theta:\R^3\times \Chi\rightarrow[0,1]
+f_\theta :\R ^3 \times \Chi \rightarrow [0,1]
 $$
