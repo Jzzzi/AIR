@@ -30,3 +30,10 @@ https://openreview.net/pdf?id=RiwPYAMLur
 https://openaccess.thecvf.com/content/CVPR2023/papers/Humayun_SplineCam_Exact_Visualization_and_Characterization_of_Deep_Network_Geometry_and_CVPR_2023_paper.pdf
 https://arxiv.org/pdf/2109.14035
 2
+
+你现在大概知道3dgs的效果了，你考完之后我建议你可以跑一下这三个code
+离线nerf：https://github.com/nerfstudio-project/nerfstudio
+在线nerf(ROS接口,RGBD传感器我们这里有): https://github.com/SYSU-STAR/H2-Mapping 
+在线3dgs(live demo, RGBD传感器我们这里有): https://github.com/muskie82/MonoGS
+
+这样你应该能大概知道在线和离线现在的效果到什么程度，看看你的兴趣在实时重建任务上还是离线重建任务上，我们都有相应的课题可以给你
