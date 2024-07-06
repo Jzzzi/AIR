@@ -9,6 +9,6 @@ int main() {
     std::getline(std::cin, commitMessage);
     std::string command = "git add . && git commit -m \"" + commitMessage + "\" && git push";
     system(command.c_str());
-    std::cout << "Pushed to remote repository" << std::endl;
+    std::cout << "Pushed to remote repository successfully" << std::endl;
     return 0;
 }
